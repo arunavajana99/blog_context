@@ -14,11 +14,11 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="w-full h-full flex flex-col gap-y-1 just items-center">
       <Header />
       <Blogs />
       <Pagination />
-    </>
+    </div>
   );
 }
 

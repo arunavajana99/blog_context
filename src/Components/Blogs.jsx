@@ -5,7 +5,7 @@ import Spinner from "./Spinner";
 const Blogs = () => {
   const { loading, posts } = useContext(AppContext);
   return (
-    <div className="max-w-[620px] w-11/12 h-screen py-3 flex justify-center flex-col gap-y-7 mb-[70px]">
+    <div className="max-w-[670px] w-11/12 py-8 flex flex-col gap-y-7 mt-[66px] mb-[70px] justify-center items-center h-screen">
       {loading ? (
         <Spinner />
       ) : posts.length === 0 ? (
